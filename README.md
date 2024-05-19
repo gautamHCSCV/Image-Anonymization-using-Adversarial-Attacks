@@ -1,5 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/AQPBb0Hq)
-
 ## Image Anonymization using Adversarial Attacks
 
 In the digital age we live in now, more and more image data has brought both rewards and problems. Even though images have useful information for analyzing and understanding, they can also have private or personal information that needs to be kept safe. Image anonymization methods are a key part of protecting people's privacy and making sure that data protection laws are followed. This project's goal is to look into the field of picture anonymization and come up with a new way to do it using the Projected Gradient Descent (PGD) attack. By using methods for adversarial robustness, we can change images in a way that keeps their visual content but makes it hard to tell what they are. 

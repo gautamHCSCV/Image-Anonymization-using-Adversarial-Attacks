@@ -46,10 +46,10 @@ Getting Started </br> </br>
 
 To get started with the app, follow these steps: </br> </br>
 
-    Clone the repository: git clone [https://github.com/your-username/flutter-app.git](https://github.com/Mobile-and-Pervasive-Computing-Projects/course-projects-gautamHCSCV.git) </br>
-    Navigate to the project directory: cd flutter-app </br>
-    Install the dependencies: flutter pub get </br>
-    Run the app: flutter run </br>
+    Clone the repository: git clone [[gh repo clone gautamHCSCV/Image-Anonymization-using-Adversarial-Attacks)](https://github.com/gautamHCSCV/Image-Anonymization-using-Adversarial-Attacks.git) 
+    Navigate to the project directory: cd flutter-app 
+    Install the dependencies: flutter pub get 
+    Run the app: flutter run 
  </br>
 To run the object detector model use the following steps before using the given colab file:
 

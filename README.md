@@ -55,29 +55,31 @@ To run the object detector model use the following steps before using the given 
 
 Mounting Google Drive
 
-from google.colab import drive
-drive.mount('/content/gdrive')
+    from google.colab import drive
+    drive.mount('/content/gdrive')
 
 %%bash
 
-cd /content/gdrive/MyDrive </br>
-git clone https://github.com/WongKinYiu/yolov7.git </br>
-cd yolov7 </br>
-wget https://raw.githubusercontent.com/WongKinYiu/yolov7/u5/requirements.txt </br>
-pip install -r requirements.txt </br>
+    cd /content/gdrive/MyDrive
+    git clone https://github.com/WongKinYiu/yolov7.git 
+    cd yolov7 
+    wget https://raw.githubusercontent.com/WongKinYiu/yolov7/u5/requirements.txt 
+    pip install -r requirements.txt
 
-import os </br>
-import sys </br>
-sys.path.append('/content/gdrive/MyDrive/yolov7') </br>
+Path relocation </br>
 
-%%bash </br>
-wget -P /content/gdrive/MyDrive/yolov7/weights https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt </br>
+    import os 
+    import sys 
+    sys.path.append('/content/gdrive/MyDrive/yolov7') 
 
-wget -P /content/gdrive/MyDrive/yolov7/weights https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7x.pt </br>
+Weight downloads: </br>
 
-wget -P /content/gdrive/MyDrive/yolov7/weights https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-w6.pt </br>
+    wget -P /content/gdrive/MyDrive/yolov7/weights https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt 
+    wget -P /content/gdrive/MyDrive/yolov7/weights https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7x.pt 
+    wget -P /content/gdrive/MyDrive/yolov7/weights https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-w6.pt 
 
-
+ </br>
+ 
 ![image](https://github.com/Mobile-and-Pervasive-Computing-Projects/course-projects-gautamHCSCV/assets/65457437/8b08d918-8d77-4cf9-ad90-8c8e97bdae52)
 
 ![image](https://github.com/Mobile-and-Pervasive-Computing-Projects/course-projects-gautamHCSCV/assets/65457437/c7640884-ee73-453b-8138-9b9f20f85e8b)
